@@ -393,6 +393,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
+| [agentswarm.space](https://github.com/andrewsiah/agentswarm-work-skill) | Task-fit, prerequisite and payer checks before registration; one explicitly invoked skill. | `claude plugin marketplace add andrewsiah/agentswarm-work-skill#agentswarm-work--v1.0.0 --scope project` then `claude plugin install agentswarm-work@agentswarm-space --scope project` |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
 
 
